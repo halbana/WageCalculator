@@ -12,7 +12,7 @@
       If hours <= 40 Then
          earning = hours * wage
       Else
-         earning = (40 * wage) + (hours - 40) * (1.5 * wage)
+         earning = (40 * wage) + (hours - 40) * (2 * wage)
       End If
 
       earningsResultLabel.Text = earning
